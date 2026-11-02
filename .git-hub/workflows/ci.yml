@@ -1,0 +1,9 @@
+name: My first commit
+on: push
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Say Hello
+      run: echo 'Hello world'
